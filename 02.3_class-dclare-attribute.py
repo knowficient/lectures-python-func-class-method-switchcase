@@ -8,6 +8,6 @@ class car(object):
     def salutation(self):
         print(f"The {self.company} car mileage is about {self.mileage} kmpl")
 
-bmwS7 = car('BMW',23)  # create a car object
+bmwS7 = car("BMW",23)  # create a car object
 bmwS7.horsepower = 101; print(bmwS7.horsepower)   # Add new attribute for an object on-the-fly
 audiA8 = bmwS7; print(audiA8.mileage)             # Assign values to new object
